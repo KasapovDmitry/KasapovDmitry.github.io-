@@ -1,92 +1,189 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Test for OXMEN STUDIO 👍</title>
-    <meta name="description" content="✍ Тестовое задание на позицию Front-end разработчик, с упором на верстку сайтов">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Резюме Дмитрий Касапов</title>
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <div class="site">
+    <header class="header" id="header">
         <div class="container">
-            <h1 class="title">Рассчитайте стоимость автомобиля в лизинг</h1>
-            <form>
-                <div class="content-top grid">
-                    <div class="content-top-cell">
-                        <div class="content-cell-name margin24">Стоимость автомобиля</div>
-                        <div class="content-cell-fild">
-                            <div class="input-block">
-                                <div class="input-wrap">
-                                    <input class="cost-inp inp inp-text" type="text" required>
-                                    <div class="input-block-info">
-                                        <span>₽</span>
-                                    </div>
-                                </div>
-                                <div class="range-wrap">
-                                    <input class="styled-slider slider-progress cost range-text" type="range" name="volume" value="1000000" min="1000000" max="6000000">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-top-cell">
-                        <div class="content-cell-name margin24">Первоначальный взнос</div>
-                        <div class="content-cell-fild">
-                            <div class="input-block">
-                                <div class="input-wrap persent">
-                                    <input class="contribution-inp inp" type="text" required>
-                                    <div class="input-block-info">
-                                        <span class="contribution-percent">13</span> 
-                                        <span> %</span>   
-                                    </div>
-                                </div>
-                                <div class="range-wrap">
-                                    <input class="styled-slider slider-progress contribution" type="range" name="volume" value="10" min="10" max="60">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-top-cell">
-                        <div class="content-cell-name margin24">Срок лизинга</div>
-                        <div class="content-cell-fild">
-                            <div class="input-block">
-                                <div class="input-wrap">
-                                    <input class="term-inp inp inp-text" type="number" required>
-                                    <div class="input-block-info"><span>мес.</span></div>
-                                </div>
-                                <div class="range-wrap">
-                                    <input class="styled-slider slider-progress term range-text" type="range" name="volume" value="1" min="1" max="60">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content-bottom grid">
-                    <div class="content-bottom-cell">
-                        <div class="content-cell-name margin8">Сумма договора лизинга</div>
-                        <div class="content-cell-sum">
-                            <div class="sum-total sum-all">4 467 313</div>
-                            <span>₽</span>
-                        </div>
-                    </div>
-                    
-                    <div class="content-bottom-cell">
-                        <div class="content-cell-name margin8">Ежемесячный платеж от</div>
-                        <div class="content-cell-sum">
-                            <div class="sum-total sum-mouth">114 455</div>
-                            <span>₽</span>
-                        </div>
-                    </div>
-                    <div class="content-bottom-cell">
-                        <div class="orang-btn">
-                            <span class="btn-content">Оставить заявку</span>
-                        </div>
-                    </div>
-                </div>
-            </form>
+            <div  class="header-top">
+                <a href="https://krasnodar.hh.ru/resume/c4c0f142ff01cf33c50039ed1f524e5433744f" target="_blank">
+                    <img class="icon-hh" src="./img/header/hh.ru.png" alt="Перейти на HH.ru" title="hh.ru">
+                </a>
+                <a href="https://github.com/KasapovDmitry" target="_blank">
+                    <img class="icon-git" src="./img/header/github.svg" alt="Перейти на гитхаб" title="GitHab">
+                </a>
+                <nav class="nav-menu">
+                    <a href="#hello" class="nav-link">Привет!</a>
+                    <a href="#skills" class="nav-link">Навыки</a>
+                    <a href="#portfolio" class="nav-link">Портфолио</a>
+                    <a href="#ability" class="nav-link">Качества</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+            </div>
+            <div class="header-middle">
+                <h1 class="headr-title">Дмитрий Касапов</h1>
+                <p class="headr-subtitle">Front-end разработчик (стажер)</p>
+                <p class="headr-subtitle">Верстальщик html & css</p>
+               
+                </div>        
+            </div>
+            <div class="header-bottom">
+                <a  href="#hello" class="header-arrow">
+                    <img src="./img/header/headstyk.svg" alt="вниз">
+                </a>
+            </div>
         </div>
-    </div>
-    <script src="./assets/js/script.js"></script>
+    </header>
+    <main class="main">
+        <div  class="container">
+            <section id="hello" class="hello">
+                <div class="hello-text">
+                    <h2>Добрый день!</h2>
+                    <p>Я, Дмитрий Касапов. Мне 43 года. Проживаю в городе Краснодар.</p>
+                    <p>Женат на замечательной женщине. У нас двое деток. Любим весело и интересно проводить время. Часто придумываем новые игры и занятия.</p>
+                    <p>Стараюсь, чтобы жизнь проходила с пользой и в удовольствие. Обожаю путешествия, рыбалку, настольные игры и, конечно же, ПК.</p>
+                </div>
+                <div class="hello-img">
+                    <img src="./img/section-hello/ich.jpg" alt="Дмитрий Касапов">
+                </div>
+                
+            </section>
+            <section id="skills" class="skills">
+                <h3 class="skill-title">Профессиональные навыки:</h3>
+                <ul class=" list-reset">
+                    <li class="skill-blok">
+                        <p><img class="skill-img" src="./img/section-skills/html_css.jpg" alt="html_css" hspace="20">Хорошо владею html & css. Имею навыки адаптивной, валидной, кросплатформенной верстки с использованием Gulp, SCSS. Пишу понятный и легкий для прочтения код. Все аккуратно, по полочкам, с комментариями, адекватное название классов. Верстка независимыми блоками (flex, grid), media запросы, css – анимация, SVG (спрайты, иконочный шрифт). Верстаю сайты, лэндинги, одностраничные web-приложения, сайты-визитки, интернет-магазины.
+                        </p>
+                    </li>
+                    <li class="skill-blok">
+                        <p><img class="skill-img" src="./img/section-skills/js.jpg" alt="js" hspace="20"> Пишу с «ноля» на нативном JS счётчики, эффекты, бургеры, табы, простые слайдеры и проч.). Понимаю логику, код (в том числе и чужой). Прохожу курс по React и изучаю практическую сторону дополнительно. Webpack. NodeJS (создать проект, подключить доп. библиотеки и плагины, запустить localhost и тд.). Front-end это то, чем мне реально интересно заниматься!
+                        </p>
+                    </li>
+                    <li class="skill-blok">
+                        <p><img class="skill-img" src="./img/section-skills/other_skills.jpg" alt="other-skills" hspace="20">Натягиваю сайты на WordPress (знаю его на твердом среднем уровне). Понимаю синтаксис и логику PHP. Знаком с графическими редакторами: Photoshop, Figma. Нарезка макетов, обработка изображений (jpg, png, svg), спрайты. Работаю с GitHub. 
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h2 class="portfolio-header">Портфолио</h2>
+                    <div class="cards-wrapper">
+                        <div class="card">
+                            <a href="https://gktobacco.ru" target="_blank" class="card-link">
+                                <img class="card-img" src="./img/portfolio/tobacco.jpg" alt="Многостраничный сайт">
+                                <h3 class="card-title">Интернет-магазин</h3>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://masterregion.ru" target="_blank" class="card-link">
+                                <img class="card-img" src="./img/portfolio/masterregion.jpg" alt="Многостраничный сайт">
+                                <h3 class="card-title">Интернет-магазин</h3>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://sb-dominion.ru" target="_blank" class="card-link">
+                                <img class="card-img" src="./img/portfolio/dominion.jpg" alt="Многостраничный сайт">
+                                <h3 class="card-title">Служба безопасности</h3>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://trubeks.ru" target="_blank" class="card-link">
+                                <img class="card-img" src="./img/portfolio/trubex.jpg" alt="Многостраничный сайт">
+                                <h3 class="card-title">Сайт компании</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ability" id="ability">
+                <h2 class="ability-title">Личные качества</h2>
+                <blockquote class="perl">
+                    <p>"Многие знакомы с достоинствами программиста.</p>
+                    <p> Их всего три, и разумеется, это:</p>
+                    <p> лень, нетерпеливость и гордыня."</p>
+                    <p class="cite"><cite >Ларри Уолл, создатель Perl.</cite></p>
+                </blockquote>
+                <p class="ability-punkt">=> Аналитический склад ума - хорошо структурирую информацию.</p>
+                <p class="ability-punkt">=> Алгоритмизированный подход - выстраиваю элементы в систему.</p>
+                <p class="ability-punkt">=> Быстро вникаю в суть проблемы.</p>
+                <p class="ability-punkt">=> Грамотно подбираю инструментарий для её решения.</p>
+                <p class="ability-punkt">=> Умею работать с большим объемом данных.</p>
+                <p class="ability-punkt">=> Ответственный и пунктуальный.</p>
+                <p class="ability-punkt">=> Могу работать в команде.</p>
+                <p class="ability-punkt">=> На позитивной волне.</p>
+                <p class="ability-punkt">=> Стремлюсь к саморазвитию и повышению квалификации.</p>
+                <p class="ability-punkt">=> Концентрируюсь при решении задач.</p>
+                <p class="ability-punkt">=> Трудолюбивый, погружаюсь в работу с головой.</p>
+                <p class="ability-punkt">=> А также, с душой и удовольствием.</p>
+                <p class="ability-punkt">=> Дружелюбный, общительный, люблю помогать другим.</p>
+
+            </section>
+        </div>    
+        
+        </div>
+  
+    </main>
+    <footer class="footer">
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="footer-top">
+                    <img src="./img/footer/win&win.jpg" alt="win2win">
+                    <h2 class="footer-slogan">Давайте сотрудничать!</h2>
+                </div>
+                <div class="footer-middle">
+                    <div class="footer-colum">
+                        <h3 class="footer-title">Навигация</h3>
+                        <ul class="footer-list list-reset">
+                            <li class="footer-item"><a href="#titul" class="footer-link">Главная</a></li>
+                            <li class="footer-item"><a href="#hello" class="footer-link">Привет!</a></li>
+                            <li class="footer-item"><a href="#skills" class="footer-link">Навыки</a></li>
+                            <li class="footer-item"><a href="#portfolio" class="footer-link">Портфолио</a></li>
+                            <li class="footer-item"><a href="#ability" class="footer-link">Качества</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h3 class="footer-title">Контакты</h3>
+                        <ul class="footer-list list-reset">
+                            <li class="footer-item-contact">Телефон:<br> +7 (918) 365-71-81</li>
+                            <li class="footer-item-contact">WhatsApp:<br> +7 (918) 365-71-81</li>
+                            <li class="footer-item-contact">Telegram:<br> +7 (902) 540-66-82</li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h3 class="footer-title">Ссылки</h3>
+                        <ul class="footer-list list-reset">
+                            <li class="footer-item-contact"><a href="mailto:dkasapov@mail.ru" target="_blank" class="footer-link"><img class="footer-icons ml" src="./img/footer/mail.svg" alt="">Mail</a></li>
+                            <li class="footer-item-contact"><a href="https://github.com/KasapovDmitry" target="_blank" class="footer-link"><img class="footer-icons gh" src="./img/footer/github.svg" alt="">GitHub</a></li>
+                            <li class="footer-item-contact"><a href="https://krasnodar.hh.ru/resume/c4c0f142ff01cf33c50039ed1f524e5433744f" target="_blank" class="footer-link"><img class="footer-icons hh" src="./img/footer/hh.png" alt="">hh.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <small class="copiright">&copy; Касапов Дмитрий. HTML верстка и разработка сайтов</small>
+                </div>
+            </div>
+
+        </section>
+         <!-- Библиотеки и плагины -->
+   <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+   <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
+       
+           
+            
+            
+    </footer>
+    
 </body>
 </html>
